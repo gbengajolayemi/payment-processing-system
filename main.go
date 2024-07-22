@@ -144,7 +144,7 @@ func main() {
 
 	// Create an instance of Account
 	a := &Account{
-		AccountNumber: 2141364472,
+		AccountNumber: 2122,
 		Owner:         "Gbenga",
 		Balance:       2000,
 	}
