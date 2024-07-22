@@ -170,12 +170,13 @@ func main() {
 	// Set up logging to file
 	logger := log.New(file, "INFO: ", log.LstdFlags)
 
-	// Create an instance of Account
+// Create an instance of Account
 	a := &Account{
 		AccountNumber: 1,
 		Owner:         "Users",
 		Balance:       2000,
 	}
+
 
 	// Interface reference
 	var ops AccountOperations = a
